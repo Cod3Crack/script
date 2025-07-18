@@ -19,6 +19,17 @@
 # 3. Ejecútalo: ./configurar_github.sh
 # 4. Sigue las instrucciones en pantalla.
 # ==============================================================================
+# ¡Todo Listo! Cómo Usar tu Nueva Configuración
+
+# Opción A) Para clonar un repositorio NUEVO:
+# Usa este formato. Reemplaza 'repo.git' con el nombre de tu repositorio.
+# git clone git@github.com-Cod3Crack:Cod3Crack/repo.git
+
+# Opción B) Para un repositorio que YA TIENES clonado:
+# 1. Navega a la carpeta de tu repositorio:
+# cd /ruta/a/tu/repositorio
+# 2. Ejecuta este comando para actualizar la URL remota:
+# git remote set-url origin git@github.com-Cod3Crack:Cod3Crack/repo.git
 
 # --- Definición de Colores para la Salida ---
 COLOR_VERDE='\033[0;32m'
